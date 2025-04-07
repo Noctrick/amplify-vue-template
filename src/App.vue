@@ -1,10 +1,9 @@
-<script setup lang="ts">
-import Todos from './components/Todos.vue'
-</script>
-
 <template>
-  <main>
-    <Todos />
-  </main>
+  <div id="app">
+    <FileUpload />
+  </div>
 </template>
 
+<script setup>
+import FileUpload from "./components/FileUpload.vue";
+</script>
